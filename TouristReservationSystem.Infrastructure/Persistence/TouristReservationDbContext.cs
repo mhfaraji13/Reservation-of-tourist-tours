@@ -1,9 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using TouristReservationSystem.Application.Interfaces;
 using TouristReservationSystem.Domain.Entities.Models;
 
 namespace TouristReservationSystem.Infrastructure.Persistence;
 
-public class TouristReservationDbContext : DbContext
+public class TouristReservationDbContext : DbContext , ITouristReservationDbContext
 {
     public TouristReservationDbContext(DbContextOptions<TouristReservationDbContext> options) : base(options)
     {
