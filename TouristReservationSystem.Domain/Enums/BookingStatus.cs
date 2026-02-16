@@ -1,0 +1,9 @@
+namespace TouristReservationSystem.Domain.Enums;
+
+public enum BookingStatus
+{
+    Pending = 0 ,
+    Confirmed = 1,
+    Canceled = 2,
+    Refunded = 3
+}

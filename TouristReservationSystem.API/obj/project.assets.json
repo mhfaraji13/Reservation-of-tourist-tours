@@ -110,6 +110,43 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "TouristReservationSystem.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "TouristReservationSystem.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TouristReservationSystem.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TouristReservationSystem.Application.dll": {}
+        }
+      },
+      "TouristReservationSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/TouristReservationSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TouristReservationSystem.Domain.dll": {}
+        }
+      },
+      "TouristReservationSystem.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "TouristReservationSystem.Application": "1.0.0",
+          "TouristReservationSystem.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TouristReservationSystem.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TouristReservationSystem.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -541,6 +578,21 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "TouristReservationSystem.Application/1.0.0": {
+      "type": "project",
+      "path": "../TouristReservationSystem.Application/TouristReservationSystem.Application.csproj",
+      "msbuildProject": "../TouristReservationSystem.Application/TouristReservationSystem.Application.csproj"
+    },
+    "TouristReservationSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TouristReservationSystem.Domain/TouristReservationSystem.Domain.csproj",
+      "msbuildProject": "../TouristReservationSystem.Domain/TouristReservationSystem.Domain.csproj"
+    },
+    "TouristReservationSystem.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TouristReservationSystem.Infrastructure/TouristReservationSystem.Infrastructure.csproj",
+      "msbuildProject": "../TouristReservationSystem.Infrastructure/TouristReservationSystem.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -548,7 +600,9 @@
       "Swashbuckle.AspNetCore >= 10.1.3",
       "Swashbuckle.AspNetCore.Swagger >= 10.1.3",
       "Swashbuckle.AspNetCore.SwaggerGen >= 10.1.3",
-      "Swashbuckle.AspNetCore.SwaggerUI >= 10.1.3"
+      "Swashbuckle.AspNetCore.SwaggerUI >= 10.1.3",
+      "TouristReservationSystem.Application >= 1.0.0",
+      "TouristReservationSystem.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -575,7 +629,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/TouristReservationSystem.Application.csproj": {
+              "projectPath": "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/TouristReservationSystem.Application.csproj"
+            },
+            "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Infrastructure/TouristReservationSystem.Infrastructure.csproj": {
+              "projectPath": "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Infrastructure/TouristReservationSystem.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

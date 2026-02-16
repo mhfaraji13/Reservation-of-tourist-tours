@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net10.0": {
+      "TouristReservationSystem.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "TouristReservationSystem.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TouristReservationSystem.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TouristReservationSystem.Application.dll": {}
+        }
+      },
+      "TouristReservationSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/TouristReservationSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TouristReservationSystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TouristReservationSystem.Application/1.0.0": {
+      "type": "project",
+      "path": "../TouristReservationSystem.Application/TouristReservationSystem.Application.csproj",
+      "msbuildProject": "../TouristReservationSystem.Application/TouristReservationSystem.Application.csproj"
+    },
+    "TouristReservationSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TouristReservationSystem.Domain/TouristReservationSystem.Domain.csproj",
+      "msbuildProject": "../TouristReservationSystem.Domain/TouristReservationSystem.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net10.0": [
+      "TouristReservationSystem.Application >= 1.0.0",
+      "TouristReservationSystem.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mohammadhossein/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Infrastructure/TouristReservationSystem.Infrastructure.csproj",
+      "projectName": "TouristReservationSystem.Infrastructure",
+      "projectPath": "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Infrastructure/TouristReservationSystem.Infrastructure.csproj",
+      "packagesPath": "/Users/mohammadhossein/.nuget/packages/",
+      "outputPath": "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mohammadhossein/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net10.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "projectReferences": {
+            "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/TouristReservationSystem.Application.csproj": {
+              "projectPath": "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/TouristReservationSystem.Application.csproj"
+            },
+            "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/TouristReservationSystem.Domain.csproj": {
+              "projectPath": "/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/TouristReservationSystem.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net10.0": {
+        "targetAlias": "net10.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
