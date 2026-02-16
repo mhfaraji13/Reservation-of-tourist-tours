@@ -1,0 +1,16 @@
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/bin/Debug/net10.0/TouristReservationSystem.Application.deps.json
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/bin/Debug/net10.0/TouristReservationSystem.Application.dll
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/bin/Debug/net10.0/TouristReservationSystem.Application.pdb
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/bin/Debug/net10.0/TouristReservationSystem.Domain.dll
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/bin/Debug/net10.0/TouristReservationSystem.Domain.pdb
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/TouristReservationSystem.Application.csproj.AssemblyReference.cache
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/TouristReservationSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/TouristReservationSystem.Application.AssemblyInfoInputs.cache
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/TouristReservationSystem.Application.AssemblyInfo.cs
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/TouristReservationSystem.Application.csproj.CoreCompileInputs.cache
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/TouristReservationSystem.Application.sourcelink.json
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/TouristR.E3AA887B.Up2Date
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/TouristReservationSystem.Application.dll
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/refint/TouristReservationSystem.Application.dll
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/TouristReservationSystem.Application.pdb
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Application/obj/Debug/net10.0/ref/TouristReservationSystem.Application.dll

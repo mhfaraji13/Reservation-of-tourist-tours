@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "TouristReservationSystem.Application/1.0.0": {
+        "dependencies": {
+          "TouristReservationSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TouristReservationSystem.Application.dll": {}
+        }
+      },
+      "TouristReservationSystem.Domain/1.0.0": {
+        "runtime": {
+          "TouristReservationSystem.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TouristReservationSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TouristReservationSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

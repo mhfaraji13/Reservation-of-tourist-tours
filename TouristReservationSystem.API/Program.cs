@@ -1,6 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using TouristReservationSystem.Infrastructure.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+
+var connectionString = builder.Configuration.GetConnectionString("TouristReservationConnectionString");
+
+builder.Services.AddDbContext<TouristReservationDbContext>(options =>
+    options.UseSqlServer(connectionString , 
+        b =>b.MigrationsAssembly("TouristReservationSystem.Infrastructure")));
+
 
 builder.Services.AddControllers();
 

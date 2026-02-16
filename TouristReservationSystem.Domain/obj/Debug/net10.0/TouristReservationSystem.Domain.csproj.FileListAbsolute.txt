@@ -1,0 +1,12 @@
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/bin/Debug/net10.0/TouristReservationSystem.Domain.deps.json
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/bin/Debug/net10.0/TouristReservationSystem.Domain.dll
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/bin/Debug/net10.0/TouristReservationSystem.Domain.pdb
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/obj/Debug/net10.0/TouristReservationSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/obj/Debug/net10.0/TouristReservationSystem.Domain.AssemblyInfoInputs.cache
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/obj/Debug/net10.0/TouristReservationSystem.Domain.AssemblyInfo.cs
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/obj/Debug/net10.0/TouristReservationSystem.Domain.csproj.CoreCompileInputs.cache
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/obj/Debug/net10.0/TouristReservationSystem.Domain.sourcelink.json
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/obj/Debug/net10.0/TouristReservationSystem.Domain.dll
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/obj/Debug/net10.0/refint/TouristReservationSystem.Domain.dll
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/obj/Debug/net10.0/TouristReservationSystem.Domain.pdb
+/Users/mohammadhossein/Documents/TouristReservationSystem/TouristReservationSystem.Domain/obj/Debug/net10.0/ref/TouristReservationSystem.Domain.dll
